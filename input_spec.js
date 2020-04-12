@@ -3,7 +3,6 @@ describe('angular-material input component page', function() {
 
   it('Should change input component value', async() => {
     await browser.get('https://material.angular.io/components/input/examples');
-     await browser.get('https://material.angular.io/components/input/examples');
       
     await browser.wait(EC.elementToBeClickable($('.mat-button-wrapper>.mat-icon')), 5000);
       
