@@ -6,6 +6,7 @@ describe('angular-material input component page', function() {
      await browser.get('https://material.angular.io/components/input/examples');
       
     await browser.wait(EC.elementToBeClickable($('.mat-button-wrapper>.mat-icon')), 5000);
+    await browser.wait(EC.elementToBeClickable($('.mat-button-wrapper>.mat-icon')), 5000);
       
     const emailInputField = $$('.mat-form-field-infix>input').get(1);
       
